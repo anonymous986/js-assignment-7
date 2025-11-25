@@ -119,8 +119,60 @@ function ans6() {
         let remarks = "nallay!!!🤡"
         document.write("Total marks : " + totalMarks + "<br>" + "Marks obtained : " + marksObtained + "<br>" + "Percentage : " + percentage + "<br>" + "Grade : " + grade + "<br>" + "Remarks : " + remarks)
   }
-    
-    
-    
 
 }
+
+// answer 7
+var secretNumber = 7;
+function ans7() {
+
+let guess = prompt("Guess the number!!")
+
+if (secretNumber == guess) {
+    document.write("Bingo!! you guessed it right.")
+} if (guess == secretNumber + 1 || guess == secretNumber - 1) {
+    document.write("close enough...")
+} 
+
+}
+
+// answer 8
+function ans8() {
+    let num = prompt("Enter the number")
+
+    if (num % 3 === 0) {
+        document.write("number is completely divible by 3.")
+    } else {
+        document.write("number is not completely divisible by 3.")
+    }
+}
+
+// anwser 9 
+function ans9() {
+    let num = prompt("Enter the number")
+
+    if (num % 2 === 0) {
+        document.write("number is even.")
+    } else {
+        document.write("number is odd.")
+    }
+}
+
+// answer 10
+var temp;
+function ans10() {
+   
+    let temp = prompt("enter the temperature in celsius.")
+
+    if (temp > 40) {
+        document.write("It's too hot outside.")
+    } if (temp > 30 && temp < 40) {
+        document.write("The weather is normal today.")
+    } if (temp > 20 && temp < 30) {
+        document.write("Today's weather is cool.")
+    } if (temp > 10 && temp < 20) {
+        document.write("OMG! Today's weather is so cold.")
+    }
+}
+
+// answer 11
