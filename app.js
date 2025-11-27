@@ -176,3 +176,21 @@ function ans10() {
 }
 
 // answer 11
+var num1, num2, operator;
+function ans11() {
+num1 = parseInt(prompt("enter number 1 :"))
+num2 = parseInt(prompt("enter number 2 :"))
+operator = prompt("enter what to do with the numbers :")
+
+if (operator === "+") {
+    document.write(num1 + num2)
+} if (operator === "-") {
+    document.write(num1 - num2)
+} if (operator ==="*") {
+    document.write(num1 * num2)
+} if (operator === "/") {
+    document.write(num1 / num2)
+} 
+
+}
+
